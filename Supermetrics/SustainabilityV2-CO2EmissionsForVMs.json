@@ -1,0 +1,34 @@
+{"78fc02bf-6928-4b20-803e-1d0024ab6a83": {
+   "resourceKinds": [
+      {
+         "resourceKindKey": "HostSystem",
+         "adapterKindKey": "VMWARE"
+      },
+      {
+         "resourceKindKey": "Application",
+         "adapterKindKey": "Container"
+      },
+      {
+         "resourceKindKey": "ClusterComputeResource",
+         "adapterKindKey": "VMWARE"
+      },
+      {
+         "resourceKindKey": "VMwareAdapter Instance",
+         "adapterKindKey": "VMWARE"
+      },
+      {
+         "resourceKindKey": "Business Unit",
+         "adapterKindKey": "Container"
+      },
+      {
+         "resourceKindKey": "Datacenter",
+         "adapterKindKey": "VMWARE"
+      }
+   ],
+   "modificationTime": 1693891856511,
+   "name": "SustainabilityV2-CO2EmissionsForVMs",
+   "formula": "sum(${adaptertype=VMWARE, objecttype=VirtualMachine, metric=Super Metric|sm_e6ee91e7-0eb2-422c-a2b1-39c82cde3bef, depth=5})",
+   "description": "",
+   "unitId": "kg",
+   "modifiedBy": "4f691648-ff9b-3172-981e-72e4cbaaebb9"
+}}

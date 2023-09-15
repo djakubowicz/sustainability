@@ -1,0 +1,12 @@
+{"a5efcf00-2d62-423e-b4c0-789be5722bcb": {
+   "resourceKinds": [{
+      "resourceKindKey": "VirtualMachine",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1693890288389,
+   "name": "SustainabilityV2-Scope2VMCO2",
+   "formula": " (${this, metric=Super Metric|sm_b42c657d-5469-4870-a207-d3444e9ba828} * sum (${adaptertype=VMWARE, objecttype=Datacenter, metric=CustomProperty|DatacenterCarbonIntensity, depth=-3})) / 1000000",
+   "description": "",
+   "unitId": "kg",
+   "modifiedBy": "4f691648-ff9b-3172-981e-72e4cbaaebb9"
+}}
