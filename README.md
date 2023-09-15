@@ -28,3 +28,5 @@ Add Supermetrics in this order to avoid naming issue :
 
 Add Views
 Add Dashboards
+
+Enjoy and give feedback :)
