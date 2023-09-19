@@ -1,6 +1,6 @@
 # sustainability
 
-if you need mor details, check https://cloudetastuces.blogspot.com/2023/09/business-units-and-application-level.html
+if you need the full details, check https://cloudetastuces.blogspot.com/2023/09/business-units-and-application-level.html
 
 Here is the order to deploy sustainabilityV2 dashboards : 
 
