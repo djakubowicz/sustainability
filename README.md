@@ -28,6 +28,8 @@ Add Supermetrics in this order to avoid naming issue :
     VMTotalCO2
     CO2EmissionsForVMs
 
+Don't forget to apply the supermetrics to the right policies.
+
 Note : 
 if you want to avoid naming issue in the supermetrics (if you import one before the related one in the formula is already beeing calculated, then the supermetric in the formula will be shown with it id only), you need to wait to see the first data for the supermetric (normally 5mn after its creation). 
 
